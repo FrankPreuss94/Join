@@ -3,8 +3,8 @@ import { createClient } from '@supabase/supabase-js';
 
 @Service()
 export class SupabaseService {
-    supabaseUrl = 'https://svbomumezskcpinnsucj.supabase.co';
-    supabaseKey = 'sb_publishable_ND6SqwGZ7zK_2fLUPQz6PA_HtaQvgDb';
+    supabaseUrl = 'https://nrceehlctyiwecjvlpaz.supabase.co';
+    supabaseKey = 'sb_publishable_CULWh2v0Ra454TNCKLo0FQ_jD4f_fmf';
 
     /**
      * Supabase client.
