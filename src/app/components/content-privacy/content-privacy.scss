@@ -14,10 +14,11 @@ article {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    max-width: 1440px;
     gap: 24px;
-    padding: clamp-px(48, 116) clamp-px(16, 96);
     @include scrollbar-light();
     overflow-y: auto;
+    padding: clamp-px(48, 116) clamp-px(16, 96);
 }
 
 .help-headline {
